@@ -1,0 +1,6 @@
+/packages
+/EventTriggers.sln.DotSettings.user
+/.vs
+obj
+bin
+/invest-openapi-csharp-sdk

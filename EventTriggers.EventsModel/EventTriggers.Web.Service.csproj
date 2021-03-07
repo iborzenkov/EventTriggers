@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventTriggers.DataPersistence\EventTriggers.DataPersistence.csproj" />
+    <ProjectReference Include="..\EventTriggers.Model\EventTriggers.Models.csproj" />
+  </ItemGroup>
+
+
+</Project>
