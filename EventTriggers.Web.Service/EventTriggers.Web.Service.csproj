@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EventTriggers.DataPersistence.MongoDb\EventTriggers.DataPersistence.MongoDb.csproj" />
+    <ProjectReference Include="..\EventTriggers.Models\EventTriggers.Models.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -10,7 +10,7 @@ namespace EventTriggers.MarketInfoProvider
         }
 
         public Context Context => _context ?? (_context = ConnectionFactory.GetConnection(_token).Context);
-        
+
         private Context _context;
         private readonly string _token;
     }
